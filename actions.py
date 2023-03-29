@@ -18,7 +18,7 @@ def call_api(msg):
                     {"role": "user", "content": msg},
                 ]
         )
-#0iliHLbAz3rgzdbA5h8rT3BlbkFJR2EbtjBqEelOs8Whp2zc
+
         result = ''
         for choice in response.choices:
             result += choice.message.content
