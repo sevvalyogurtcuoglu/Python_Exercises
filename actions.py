@@ -8,9 +8,7 @@ import os
 import requests
 
 
-import openai
 
-openai.api_key = "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"
 def call_api(msg):
 	
         response = openai.ChatCompletion.create(
